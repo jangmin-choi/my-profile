@@ -1,0 +1,109 @@
+/* Colors and font */
+
+body {
+	background: #fdfdfd;
+	color: rgb(50, 50, 50);
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+h1{
+	color: #C23263;
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 30px;
+}
+
+h2{
+	color: #637EFE;
+	font-family:'Bree Serif', serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	font-size:30px;
+	font-family:'Bebas Neue', cursive;
+	color: #C23263;
+	font-weight: bold;
+	transition: 0.5s ease;
+}
+
+a:hover {
+	color: black;
+}
+
+
+/* Customs design with class*/
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.page-content {
+  margin-left: 200px;
+}
+
+.container{
+	width: 700px;
+	margin: 50px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width:600px;
+	}
+}
+@media (max-width: 500px) {
+	.container{
+		width:400px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	text-align: center;
+	margin: 20px auto;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 4px
+}
+.img-circle{
+	border-radius: 30%;
+}
+.btn-blue{
+	background-color: #C23263;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+.btn-blue:hover{
+	background-color: white;
+	color:white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li{
+	display:inline;
+	padding:10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color:#C23263;
+}
+.list-inline i:hover{
+		color:rgba(230,230,230);
+}
+
+/*Esign adjustmetns using ID (1% design remainng)*/
+
+#introduction p{
+	margin:40px auto;
+}
